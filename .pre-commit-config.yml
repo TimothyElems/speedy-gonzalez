@@ -1,14 +1,14 @@
 repos:
-# -   repo: https://github.com/TimothyElems/speedy-gonzalez.git
-#     rev: v0.0.1
+-   repo: https://github.com/TimothyElems/speedy-gonzalez.git
+    rev: v0.0.1
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+# -   repo: https://github.com/astral-sh/ruff.git
+#     rev: 22.10.0
 #     hooks:
-#     -   id: check-yaml
-#     -   id: end-of-file-fixer
-#     -   id: trailing-whitespace
-# # -   repo: https://github.com/astral-sh/ruff.git
-# #     rev: 22.10.0
-# #     hooks:
-# #     -   id: ruff
+#     -   id: ruff
 - repo: https://github.com/astral-sh/ruff-pre-commit
   # Ruff version.
   rev: v0.4.7
