@@ -5,7 +5,11 @@ description = "Add your description here"
 authors = [
     { name = "Timothy Elems", email = "85181892+TimothyElems@users.noreply.github.com" }
 ]
-dependencies = []
+dependencies = [
+    "ruff>=0.4.7",
+    "tk>=0.1.0",
+    "pre-commit>=3.7.1",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
