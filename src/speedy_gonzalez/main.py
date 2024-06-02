@@ -1,1 +1,1 @@
-prints("Hello, Worlds");
+print("hello, world")
