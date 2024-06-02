@@ -1,3 +1,6 @@
 # speedy-gonzalez
 
-Describe your project here.
+### Build
+- Activate the virtual environment
+    source venv/bin/activate
+
